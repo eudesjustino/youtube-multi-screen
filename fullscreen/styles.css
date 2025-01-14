@@ -1,0 +1,109 @@
+/* styles.css */
+
+/* Estilos para o popup */
+
+
+h2 {
+  text-align: center;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+/* Estilos para a tela cheia */
+#player-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  position: relative;
+}
+
+#player {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: black;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container centralizado */
+.container {
+  display: flex;
+  width: 380px;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Título estilizado */
+.container h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Grupo de botões com espaçamento */
+.button-group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Estilização dos botões de ação */
+.action-button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #6200ea;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Estilização dos ícones nos botões */
+.action-button .material-icons {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+/* Efeito de hover nos botões */
+.action-button:hover {
+  background-color: #3700b3;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+
+#player-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#iframe {
+  width: 100%;
+  height: 100%;
+}

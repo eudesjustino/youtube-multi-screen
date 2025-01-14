@@ -1,0 +1,39 @@
+<!-- popup.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>YouTube Tela Cheia</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Inclusão da Fonte de Ícones do Material Design -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <div class="popup-container">
+    <header class="popup-header">
+      <h2>YouTube Fullscreen Manager</h2>
+      <button id="closePopup" class="close-button" title="Fechar">
+        <span class="material-icons">close</span>
+      </button>
+    </header>
+    <main class="popup-main">
+      <div class="button-group">
+        <button id="moveButton" class="action-button" title="Mover Vídeo para Segunda Tela">
+          <span class="material-icons">screen_share</span>
+          <span class="button-text">Mover</span>
+        </button>
+        <button id="closeButton" class="action-button" title="Fechar Vídeo na Segunda Tela">
+          <span class="material-icons">close</span>
+          <span class="button-text">Fechar</span>
+        </button>
+        <button id="fullscreenButton" class="action-button" title="Colocar Janela em Tela Cheia">
+          <span class="material-icons">fullscreen</span>
+          <span class="button-text">Fullscreen</span>
+        </button>
+      </div>
+    </main>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
