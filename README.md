@@ -32,7 +32,7 @@ Essa extensão é ideal para quem utiliza várias telas e deseja otimizar o cons
 1.  Clone este repositório ou baixe o arquivo ZIP:
     
     ````bash    
-    `git clone https://github.com/seu-usuario/youtube-fullscreen-manager.git` 
+    git clone https://github.com/eudesjustino/youtube-multi-screen.git 
     
 2.  Extraia o conteúdo do arquivo ZIP (se baixado).
 
