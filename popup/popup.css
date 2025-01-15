@@ -1,0 +1,149 @@
+/* popup.css */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  width: 285px;
+  padding: 15px;
+}
+
+.popup-container {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.popup-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #6200ea;
+  color: #ffffff;
+  padding: 10px 15px;
+}
+
+.popup-header h2 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.close-button {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.3s;
+}
+
+.close-button:hover {
+  color: #ffebee;
+}
+
+.popup-main {
+  padding: 7px;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.action-button {
+  width: 100%;
+  background-color: #6200ea;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.action-button .material-icons {
+  margin-right: 6px;
+  font-size: 18px;
+}
+
+.button-text {
+  display: inline;
+}
+
+.action-button:hover {
+  background-color: #3700b3;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+#closeButton {
+  background-color: #b00020;
+}
+
+#closeButton:hover {
+  background-color: #790000;
+}
+
+#playPauseButton {
+  background-color: #4caf50;
+}
+
+#playPauseButton:hover {
+  background-color: #388e3c;
+}
+
+#restartButton {
+  background-color: #ff9800;
+}
+
+#restartButton:hover {
+  background-color: #f57c00;
+}
+
+#fullscreenButton {
+  background-color: #03a9f4;
+}
+
+#fullscreenButton:hover {
+  background-color: #0288d1;
+}
+
+@media (max-width: 300px) {
+  body {
+    width: 132PX;
+    padding: 14px;
+  }
+
+  .popup-header h2 {
+    font-size: 14px;
+  }
+
+  .action-button {
+    padding: 8px;
+    font-size: 12px;
+  }
+
+  .action-button .material-icons {
+    margin-right: 4px;
+    font-size: 16px;
+  }
+
+  .button-text {
+    display: inline;
+  }
+}
